@@ -11,15 +11,15 @@ const O_MARKER = `<svg width="500" height="500" xmlns="http://www.w3.org/2000/sv
 <path d="M 229 145 L 228 144 L 227 144 L 224 144 L 221 144 L 219 144 L 216 144 L 215 144 L 213 144 L 212 144 L 209 144 L 205 147 L 203 148 L 200 149 L 197 151 L 195 152 L 193 153 L 192 153 L 191 153 L 189 155 L 187 156 L 184 157 L 181 159 L 177 161 L 173 167 L 171 172 L 169 176 L 168 180 L 167 183 L 167 184 L 165 191 L 165 196 L 165 201 L 165 205 L 165 208 L 165 211 L 165 215 L 165 219 L 165 221 L 165 223 L 165 227 L 165 229 L 165 232 L 165 235 L 165 239 L 165 241 L 167 247 L 168 249 L 171 252 L 175 255 L 176 256 L 181 259 L 183 260 L 185 263 L 187 264 L 189 267 L 191 267 L 192 268 L 195 269 L 197 271 L 200 272 L 204 273 L 207 275 L 208 275 L 212 275 L 215 275 L 216 275 L 219 275 L 221 275 L 224 275 L 225 275 L 228 275 L 229 273 L 232 271 L 233 269 L 236 268 L 240 264 L 243 263 L 244 260 L 245 257 L 247 256 L 248 256 L 249 255 L 251 253 L 252 251 L 253 249 L 255 248 L 256 247 L 259 243 L 261 239 L 263 237 L 263 236 L 264 233 L 265 229 L 267 227 L 267 224 L 267 223 L 267 221 L 267 219 L 267 213 L 267 211 L 267 208 L 267 205 L 267 204 L 267 200 L 267 197 L 265 193 L 265 189 L 264 183 L 263 180 L 263 177 L 263 175 L 261 172 L 261 171 L 260 168 L 260 167 L 260 164 L 260 163 L 259 160 L 259 159 L 259 157 L 257 155 L 255 152 L 253 151 L 251 149 L 248 148 L 247 144 L 243 143 L 240 143 L 236 140 L 235 140 L 233 139 L 233 137 L 232 137 L 231 137 L 229 137 L 227 137 L 225 137 L 224 137 L 223 137 L 220 137 L 217 137 L 216 139 L 213 140 L 212 143 L 209 144 L 207 147 L 203 152 L 200 155 L 199 156 L 197 157 L 193 161 L 192 161" fill="none" stroke="#271897" stroke-width="2"/>
 </svg>`;
 const SVG_FILES = {
-  path1: { file: '/path/path1.svg', kmRan: 5, minutesTaken: '30', degree: '45°' },
-  path2: { file: '/path/path2.svg', kmRan: 10, minutesTaken: '30', degree: '45°' },
-  path3: { file: '/path/path3.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path4: { file: '/path/path4.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path5: { file: '/path/path5.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path6: { file: '/path/path6.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path7: { file: '/path/path7.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path8: { file: '/path/path8.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
-  path9: { file: '/path/path9.svg', kmRan: 15, minutesTaken: '30', degree: '45°' },
+  path1: { file: '/path/path1.svg', kmRan: 5, minutesTaken: '30', degree: '45' },
+  path2: { file: '/path/path2.svg', kmRan: 10, minutesTaken: '30', degree: '45' },
+  path3: { file: '/path/path3.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path4: { file: '/path/path4.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path5: { file: '/path/path5.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path6: { file: '/path/path6.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path7: { file: '/path/path7.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path8: { file: '/path/path8.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
+  path9: { file: '/path/path9.svg', kmRan: 15, minutesTaken: '30', degree: '45' },
 };
 
 const DrawWithXandO = () => {
@@ -164,7 +164,7 @@ const DrawWithXandO = () => {
     return (
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         {renderNumberPart(degreeString)}
-        <span style={{ margin: '0 -40px',color:"#271897" }}>"</span>
+        <span style={{ margin: '0 0px',color:"#271897" }}>"</span>
       </div>
     );
   };
